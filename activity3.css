@@ -534,6 +534,7 @@ label {
     display: flex;
     background-color: #767e81;
     border-radius: 8px;
+    
     overflow: hidden;
     height: 20px;
     margin: 20px 0;
