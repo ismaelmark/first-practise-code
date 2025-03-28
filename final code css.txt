@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0a1970;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #043873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .trial-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #FFE492;
+}
+
+.trial-btn {
+    background-color: #4F9CF9;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* CTA Button */
+.cta-btn {
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hero2-container {
+    height: 300px;
+    background-color: aqua;
+    background-image: url("edited-reconstructed.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  /* Pinapabanat ang image para mapuno ang buong screen */
+    background-position: center;
+   
+}
+
+.hero2-section {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+/* Content Section */
+.hero2-content {
+    
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero2-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero2-content {
+    color: chocolate;
+    height: 50px;
+    font-size: 10px;
+    line-height: 1.6;
+    text-align: center;
+    align-items: inherit;
+}
+
+/* Content Image */
+.content-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-content, .hero2-image {
+        max-width: 100%;
+    }
+
+    .content-content {
+        text-align: center;
+    }
+
+    
+}
+
+.cta-btn {
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+/*  Hero3 Section */
+
+.hero3-container {
+    height: 400px;
+    
+
+}
+  /* Image Section */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container3 img {
+
+    width: 200%;
+    max-width: 500px;
+    border-radius: 10px;
+
+
+}
+
+.hero3-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+.hero3-content {
+    flex: 1;
+    max-width: 50%;
+
+}
+
+.hero3-content h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}
+
+.hero3-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+   
+    
+}
+
+.href, .cta-btn {
+    flex-direction:row-reverse;
+    background-color: #d6cf0c;
+    color: white;
+    border: none;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* hero4 Section */
+.hero4-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: tomato;
+
+}
+
+.hero4-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0;
+    padding: 80px 10%;
+    gap: 40px; /* Mas maliit na gap */
+}
+
+.hero4-content {
+    flex: 1;
+    width: 50%; /* Control sa Lapad */
+
+
+}
+
+.hero4-content h1{
+
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;  
+}
+
+.hero4-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.image-container4 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.image-container4 img {
+
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #043873;
+    color: white;
+    padding: 5px 11px;
+    text-align: center; 
+    align-items: inherit;   
+    font-size: small;
+
+}
+
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-about h4 {
+    flex: 1;
+    min-width: 250px;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.footer-bottom {
+
+    margin-top: 20px;
+    border-top: 1px solid;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+

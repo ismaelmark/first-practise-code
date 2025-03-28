@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0a1970;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #043873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espasyo sa pagitan ng logo at text */
+}
+
+/* Logo Image */
+.logo-container img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+/*---Logo Text--*/
+.logo a{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn {
+    background-color: #FFE492;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trial-btn {
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 📌 Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+}
+
+/* Left Text Content */
+.text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Right Image */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* CTA Button */
+.cta-btn {
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 📌 Content Section (Global Warming) */
+.content-content {
+    padding: 60px 10%;
+    background-color: white;
+    color: black;
+}
+
+.content-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content, .image-container {
+        max-width: 100%;
+    }
+
+    .content-section {
+        text-align: center;
+    }
+}
+
+/* Right Image For Content Section */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CTA Button */
+.cta-btn {
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-content {
+    padding: 60px 10%;
+    background-color: white;
+    color: black;
+}
+
+.content-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-content, .image-container {
+        max-width: 100%;
+    }
+
+    .content-section {
+        text-align: center;
+    }
+}
+
+
+

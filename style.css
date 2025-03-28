@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+   
+}
+.items{
+    background-color: green;
+    padding: 5px;
+    flex: 1;
+}
+
+@media print{
+    .items{
+        background-color: blue;
+        font-size: 100px;
+    }
+}
+@media all and(orientation:landscape){
+    .items{
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: limegreen;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1279px){
+    body{
+        background-color: rgb(184, 184, 30);
+    }
+}
+
+@media screen and (min-width:1280px) {
+    body{
+        background-color: blueviolet;
+
+    }
+    
+}

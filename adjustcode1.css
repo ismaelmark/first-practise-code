@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: black;
+    text-align: center;
+  }
+  .header {
+    display: flex;
+    align-items: center; /* Pantayin ang logo at title */
+    justify-content: center; /* I-center horizontally */
+    gap: 10px; /* Maglagay ng puwang sa pagitan */
+    margin-bottom: 20px; /* Dagdagan ng space sa baba */
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size ng logo */
+    height: auto;
+    margin: 10px;
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Baguhin kung gusto mong ibang kulay */
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Puwang sa pagitan ng buttons */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .mb-3 {
+    display: flex; /* Gawin silang inline */
+    align-items: center; /* Pantayin sa gitna */
+    gap: 10px; /* Magdagdag ng puwang sa pagitan ng label at input */
+  }
+  
+  .form-label {
+    color: white; /* Ayusin ang kulay */
+    font-size: 16px;
+  }
+  
+      

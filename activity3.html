@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="activity3.css">
+  <title>Box Nature</title>
+</head>
+
+<body class="body">
+  <nav class="navbar">
+    <div class="logo">
+      <img src="9gag--Streamline-Simple-Icons.png" width="30" height="30" alt="Logo">
+      BOX <br> NATURE
+    </div>
+
+    <div class="container">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <i class="bi bi-book"></i>
+          <span>Learn</span>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-trophy"></i>
+          <span>Compete</span>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-bank" width="30" height="30"></i>
+          <span>Education</span>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-clipboard-minus"></i>
+          <span>Business</span>
+        </li>
+        <li class="nav-item">
+          <i class="bi bi-coin"></i>
+          <span>Pricing</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav-actions">
+      <button class="search-icon" onclick="searchFunction()">
+        <i class="bi bi-search"></i>
+      </button>
+      <button class="login-btn" onclick="loginFunction()">Log In</button>
+      <button class="join-btn" onclick="joinFunction()">Join for Free</button>
+    </div>
+  </nav>
+
+  <script>
+    function loginFunction() {
+      alert("You clicked Log In. Redirecting to Log In page...");
+    }
+
+    function joinFunction() {
+      alert("You clicked Join for Free! Redirecting to sign-up page...");
+    }
+
+    function searchFunction() {
+      let searchQuery = prompt("Enter search keyword:");
+      if (searchQuery) {
+        alert("Search for: " + searchQuery);
+      }
+    }
+  </script>
+
+  <div class="breadcrumb">
+    <a href="#">Learn</a>
+    <span>&gt;</span>
+    <span>Open AI</span>
+  </div>
+
+  <div class="image-container">
+    <img src="brrooookkk1.png" width="150" height="150" alt="Preview Image">
+  </div>
+
+  <div class="info-bar">
+    <img src="signalbar1.png" width="25" height="25" alt="Signal">
+    <span class="text-green">Excellent</span>
+    <i class="bi bi-clock"></i>
+    <p>45 min</p>
+  </div>
+
+  <p class="description">
+    Learn to be proactive in facing threats by using high-quality technology capable of detecting every threat.
+  </p>
+
+  <div class="progress-section">
+    <div class="progress-container" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0">
+      <div class="progress-bar" data-state="loading" data-value="0" data-max="100" style="width: 0%"><h6>Progress Bar Example</h6></div>
+    </div>
+    <button onclick="increaseProgress()">Increase Progress</button>
+
+    <script>
+      let progress = 0;
+
+      function increaseProgress() {
+        if (progress >= 100) return;
+        progress += 10;
+
+        const progressBar = document.querySelector('.progress-bar');
+        progressBar.style.width = progress + "%";
+        progressBar.setAttribute('data-value', progress);
+
+        const container = document.querySelector('.progress-container');
+        container.setAttribute('aria-valuenow', progress);
+        container.setAttribute('aria-valuetext', progress + "%");
+      }
+    </script>
+  </div>
+</body>
+
+</html>

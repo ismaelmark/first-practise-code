@@ -1,0 +1,8 @@
+.star-hypoo{
+    width: 100px;
+    height: calc(100px * 0.866);
+    margin-left: 150px;
+    color: green;
+    display: grid;
+    background: linear-gradient(to bottom left,#050000 calc(50% + 1px));
+}

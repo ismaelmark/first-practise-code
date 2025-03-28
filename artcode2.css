@@ -1,0 +1,99 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vb;
+}
+body{
+background-image: url("desert.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat:no-repeat;
+height: 100vh;
+margin: 0;
+
+}
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5d75b2;
+    float:right;
+    text-align: center;
+
+}
+.header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 50px;
+}
+.logo { 
+    /*logo styling */
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.home-button {
+    padding: 5px;
+    margin: 25px;
+    background-color: brown;
+    color:white;
+    height: 50px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+}
+.join-button {
+    padding: 5px;
+    margin: 25px;
+    background-color: rgb(11, 86, 24);
+    color:white;
+    height: 50px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: inline-end;
+}
+.service-button {
+    padding: 5px;
+    margin: 25px;
+    background-color: rgb(59, 31, 143);
+    color:white;
+    height: 50px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    float:inline-end
+}
+.contact-button {
+    padding: 5px;
+    margin: 25px;
+    background-color: rgb(138, 24, 69);
+    color:white;
+    height: 50px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    float:inline-end
+}
+.p{
+    
+    color: #295afb; /* White or light gray for better contrast */
+    font-size: 300px; /* Increase text size */
+    line-height: 1.5; /* Improve spacing between lines */
+    text-align: center; /* Align text properly */
+    padding: 10px; /* Add spacing around the text */
+}
+.username-label {
+    color: aliceblue;
+    border-radius: 3px;
+    float: inline-end;
+    
+    
+}
